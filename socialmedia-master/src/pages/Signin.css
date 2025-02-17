@@ -1,0 +1,54 @@
+/* Signin.css */
+body {
+    background-color: #ecc6ec; 
+    background-image: url('./bg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  .root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .Signin-container {
+    background-color: rgba(236, 220, 236, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    transform: translateX(288px); 
+  }
+  
+  .Signin-title {
+    margin-bottom: 16px;
+    color: #3f51b5;
+    text-align: center;
+  }
+  
+  .Signin-form {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .Signin-button {
+    margin-top: 16px;
+    background-color: #3f51b5;
+  }
+  
+  .Signin-footer {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .Signin-link {
+    color: #3f51b5;
+    text-decoration: none;
+  }
+  
